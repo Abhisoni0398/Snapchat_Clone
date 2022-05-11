@@ -10,7 +10,7 @@
 		00E356F31AD99517003FC87E /* Snapchat_CloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Snapchat_CloneTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-Snapchat_Clone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Snapchat_Clone.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FBF1A68108700A75B9A /* Images.xcAssets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcAssets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Snapchat_Clone-Snapchat_CloneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Snapchat_Clone-Snapchat_CloneTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -52,7 +52,7 @@
 		13B07F961A680F5B00A75B9A /* Snapchat_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Snapchat_Clone/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Snapchat_Clone/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Snapchat_Clone/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcAssets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcAssets; path = Snapchat_Clone/Images.xcAssets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Snapchat_Clone/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Snapchat_Clone/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Snapchat_Clone-Snapchat_CloneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Snapchat_Clone-Snapchat_CloneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,7 +126,7 @@
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB51A68108700A75B9A /* Images.xcAssets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -309,7 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcAssets in Resources */,
 				A2A35F0D9D874AD98E6FDE24 /* Barlow-Bold.ttf in Resources */,
 				5B5D09ACCD124AFEB488C1A0 /* Barlow-Medium.ttf in Resources */,
 				99DF97A3FEC7407D97AEDA95 /* Barlow-Regular.ttf in Resources */,

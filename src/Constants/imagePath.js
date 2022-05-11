@@ -1,3 +1,22 @@
 export default {
   bgImage: require("../Assets/Images/bgImage.jpg"),
+  icBack: require("../Assets/images/ic_back.png"),
+  icShow: require("../Assets/images/ic_visible.png"),
+  icHide: require("../Assets/images/ic_hide.png"),
+  icLoc: require("../Assets/images/ic_loc.png"),
+  icChat: require("../Assets/images/ic_chat.png"),
+  icCamera: require("../Assets/images/ic_camera.png"),
+  icPeople: require("../Assets/images/ic_people.png"),
+  icSearch: require("../Assets/images/ic_search.png"),
+  icAdd: require("../Assets/images/ic_add.png"),
+  icMore: require("../Assets/images/ic_more.png"),
+  icClose: require("../Assets/images/close.png"),
+  icNavigation: require("../Assets/images/navigation.png"),
+  icSetting: require("../Assets/images/ic_setting.png"),
+  //bitemoji
+  emoji1: require("../Assets/images/bitemoji/emoji1.png"),
+  emoji2: require("../Assets/images/bitemoji/emoji2.png"),
+  emoji3: require("../Assets/images/bitemoji/emoji3.png"),
+  emoji4: require("../Assets/images/bitemoji/emoji4.png"),
+  emoji5: require("../Assets/images/bitemoji/emoji5.png"),
 };

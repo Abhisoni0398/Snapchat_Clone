@@ -33,7 +33,7 @@ const Login = ({ navigation }) => {
     updateState({ secureText: !secureText });
   };
   const onLogin = () => {
-    alert("LOL! Fuck youh bitch here too!");
+    alert("LOL! Fuck you bitch here too!");
   };
 
   return (
