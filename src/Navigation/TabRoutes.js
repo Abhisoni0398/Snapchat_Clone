@@ -4,9 +4,10 @@ import {
   BottomTabBar,
   createBottomTabNavigator,
 } from "@react-navigation/bottom-tabs";
-import navigationStrings from "../constants/navigationStrings";
-import { Map, Chat, Camera, Stories } from "../Screens";
-import imagePath from "../constants/imagePath";
+
+import navigationStrings from "../Constants/navigationStrings";
+import { Map, Chat, Camera, Stories } from "../Screens/Index";
+import imagePath from "../Constants/imagePath";
 import colors from "../styles/colors";
 
 const BottomTab = createBottomTabNavigator();
@@ -21,8 +22,12 @@ const TabRoutes = () => {
       )}
       initialRouteName={navigationStrings.CHAT}
       tabBarOptions={{
-        style: { backgroundColor: colors.black },
         showLabel: false,
+      }}
+      screenOptions={{
+        tabBarStyle: {
+          backgroundColor: "black",
+        },
       }}
     >
       <BottomTab.Screen

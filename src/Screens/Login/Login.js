@@ -8,6 +8,7 @@ import ButtonWithText from "../../Components/ButtonWithText";
 import styles from "./Styles";
 import colors from "../../styles/colors";
 import navigationStrings from "../../Constants/navigationStrings";
+import actions from "../../redux/actions";
 
 const Login = ({ navigation }) => {
   const [state, setState] = useState({
@@ -33,7 +34,7 @@ const Login = ({ navigation }) => {
     updateState({ secureText: !secureText });
   };
   const onLogin = () => {
-    alert("LOL! Fuck you bitch here too!");
+    actions.login(true);
   };
 
   return (
