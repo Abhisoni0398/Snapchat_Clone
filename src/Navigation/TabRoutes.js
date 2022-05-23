@@ -52,6 +52,7 @@ const TabRoutes = () => {
         name={navigationStrings.CHAT}
         component={Chat}
         options={{
+          headerShown: false,
           tabBarIcon: ({ focused }) => {
             return (
               <Image
