@@ -4,5 +4,11 @@ import commonStyles from "../../styles/commonStyles";
 import colors from "../../styles/colors";
 import { moderateScale } from "../../styles/responsiveSize";
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  flatStyle: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
+});
 export default styles;
