@@ -33,7 +33,7 @@ const HomeHeader = ({
           style={{ marginLeft: moderateScale(16) }}
         />
       </View>
-      <Text style={{ color: "black" }}>{centerText}</Text>
+      <Text style={styles.textStyle}>{centerText}</Text>
       <View
         style={{
           flexDirection: "row",
