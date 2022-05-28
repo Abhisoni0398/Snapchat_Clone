@@ -6,4 +6,5 @@ export default {
   CAMERA: "Camera",
   STORIES: "Stories",
   CHAT: "Chat",
+  TABROUTES: "TabRoutes",
 };
