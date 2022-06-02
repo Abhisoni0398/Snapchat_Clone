@@ -25,6 +25,7 @@ const TabRoutes = () => {
         showLabel: false,
       }}
       screenOptions={{
+        headerShown: false,
         tabBarStyle: {
           backgroundColor: "black",
         },

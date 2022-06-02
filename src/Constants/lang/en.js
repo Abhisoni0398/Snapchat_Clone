@@ -18,4 +18,10 @@ export default {
   PRIVACY_POLICY: "Privacy Policy",
   AND_AGREE_TO_THE: "and agreee to the",
   TERMS_OF__SERVICE: "Terms of Service",
+  CHAT: "Chat",
+  STORIES: "Stories",
+  QUICK_ADD: "Quick Add",
+  FRIENDS: "Friends",
+  SUBSCRIPTION: "Subscription",
+  DISCOVER: "Discover",
 };
