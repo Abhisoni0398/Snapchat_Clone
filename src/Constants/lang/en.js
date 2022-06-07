@@ -22,6 +22,7 @@ export default {
   STORIES: "Stories",
   QUICK_ADD: "Quick Add",
   FRIENDS: "Friends",
-  SUBSCRIPTION: "Subscription",
+  SUBSCRIPTION: "Subscriptions",
   DISCOVER: "Discover",
+  MY_BITMOJI: "My Bitmoji",
 };

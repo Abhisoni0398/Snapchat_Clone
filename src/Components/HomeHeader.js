@@ -15,6 +15,7 @@ const HomeHeader = ({
   headerStyle,
   centerText,
   lastImg = imagePath.icMore,
+  setting,
 }) => {
   const navigation = useNavigation();
   console.log(centerText, "centerText");
@@ -41,10 +42,20 @@ const HomeHeader = ({
           justifyContent: "space-between",
         }}
       >
-        <Image
-          source={imagePath.icAdd}
-          style={{ marginRight: moderateScale(16) }}
-        />
+        {!!setting ? (
+          <TouchableOpacity>
+            <Image
+              source={setting}
+              style={{ marginRight: moderateScale(16) }}
+            />
+          </TouchableOpacity>
+        ) : (
+          <Image
+            source={imagePath.icAdd}
+            style={{ marginRight: moderateScale(16) }}
+          />
+        )}
+
         <Image source={lastImg} />
       </View>
     </View>

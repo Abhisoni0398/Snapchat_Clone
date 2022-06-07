@@ -57,6 +57,19 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffe6e6',
     padding: 5,
     borderRadius: 16
-    }
+    },
+    subscritpionView:{
+    width: moderateScale(120), 
+    height: moderateScale(180),
+    padding: moderateScale(8)
+  },
+discoverView:{
+  // width: moderateScale(120), 
+  height: moderateScale(180),
+  margin: moderateScale(8),
+  flex: 1,
+  padding: 8
+}
+
 });
 export default styles;
