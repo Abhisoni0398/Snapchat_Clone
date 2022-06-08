@@ -1,24 +1,37 @@
 import { View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
-import React from "react";
-import MapView from "react-native-maps";
+import React, { useRef, useState } from "react";
+import MapView, { Marker } from "react-native-maps";
 import imagePath from "../../Constants/imagePath";
 import CirculerBtn from "../../Components/CirculerBtn";
 import strings from "../../Constants/lang";
 import colors from "../../styles/colors";
 import HomeHeader from "../../Components/HomeHeader";
+import { data } from "./data";
 
 const Map = () => {
+  const [curLoc, setCurLoc] = useState({
+    latitude: 30.7993,
+    longitude: 76.9149,
+    latitudeDelta: 0.0922,
+    longitudeDelta: 0.0421,
+  });
+  const mapRef = useRef(null);
+  const onCenter = () => {
+    console.log(mapRef, "MAPREF");
+    mapRef.current.animateToRegion(curLoc);
+  };
   return (
     <View style={{ flex: 1 }}>
       <MapView
+        ref={mapRef}
         style={StyleSheet.absoluteFill}
-        initialRegion={{
-          latitude: 37.78825,
-          longitude: -122.4324,
-          latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421,
-        }}
-      />
+        initialRegion={curLoc}
+      >
+        {data.map((item, index) => {
+          return <Marker coordinate={item.coords} image={item.img} />;
+        })}
+        <Marker coordinate={curLoc} image={imagePath.emoji2} />
+      </MapView>
       <View style={styles.headerView}>
         <HomeHeader setting={imagePath.icSetting} centerText="Panchkula" />
       </View>
@@ -31,7 +44,7 @@ const Map = () => {
           }}
         >
           <CirculerBtn text={strings.MY_BITMOJI} />
-          <TouchableOpacity style={styles.navigation}>
+          <TouchableOpacity onPress={onCenter} style={styles.navigation}>
             <Image source={imagePath.icNavigation} />
           </TouchableOpacity>
           <CirculerBtn text={strings.FRIENDS} />
