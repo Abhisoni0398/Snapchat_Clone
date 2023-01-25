@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Restaurant_App</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAsPdt99AcZb2Up3Y2uhvMTHdcebYetupQ</string>
+</resources>
